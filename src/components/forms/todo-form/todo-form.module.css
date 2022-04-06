@@ -1,0 +1,26 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 22px;
+}
+
+.input {
+    font-size: inherit;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px gray solid;
+}
+
+.input:focus-visible {
+    outline: none;
+    border-bottom: 2px gray solid;
+}
+
+.input.invalid {
+    border-bottom-color: red;
+}
+
+.error {
+    color: red;
+}

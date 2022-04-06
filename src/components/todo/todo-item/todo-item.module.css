@@ -1,0 +1,46 @@
+.todoItem {
+    padding: 10px 30px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 90%;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon {
+    height: 80px;
+    width: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+}
+
+.delete {
+    font-size: 26px;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+.delete:hover {
+    opacity: 0.8;
+}
